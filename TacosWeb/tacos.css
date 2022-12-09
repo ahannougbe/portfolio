@@ -1,0 +1,11 @@
+caption,tr,th,td{
+    border:solid 1px black;
+    width: 50px;
+    text-align: center;
+}
+.line{
+    border: solid 1px black;
+}
+.space{
+    margin-bottom: 50px;
+}

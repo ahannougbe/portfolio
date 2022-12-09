@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(16, 16, 79);
+}
+form{
+    background-color: aqua;
+    margin-left: 6em;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+ }
+
+main{
+    display: flex;
+}
+.shift{
+    padding: 1em;
+}
+ table,tr,td{
+    border: 5px solid black;
+    border-collapse: collapse;
+    padding: 0 0.8em;
+    height: 30px;
+}
+
+.pad{
+    padding: 0.5em 3em;
+}
+caption{
+    border: 3px solid black;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: white;
+}
+iframe{
+    margin-top: 3em;
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form media</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <header>
+        <h1>Create a registration form with video. All field required</h1>
+    </header>
+    <main >
+        <form action="" method="" >
+                <table>
+                    <caption>Registration Form</caption>
+                    <tr>
+                        <td><label for="name">Enter Name</label></td>
+                        <td><input type="text" id="name" name="name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Enter Password</label></td>
+                        <td><input type="password" id="password" name="password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Enter Address</label></td>
+                        <td><textarea name="address" id="address" cols="20" rows="3" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="select">Select Game</label></td>
+                        <td>
+                            <input type="checkbox" id="select1" name="select1">
+                            <label for="select1">Hockey</label><br>
+                            <input type="checkbox" id="select2" name="select2">
+                            <label for="select2">Football</label><br>
+                            <input type="checkbox" id="select3" name="select3">
+                            <label for="select3">Badminton</label><br>
+                            <input type="checkbox" id="select4" name="select4">
+                            <label for="select4">Cricket</label><br>
+                            <input type="checkbox" id="select5" name="select5">
+                            <label for="select4"></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender</label></td>
+                        <td>
+                            <input type="radio" id="male" name="gender">
+                            <label for="male"> Male</label><br>
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="age">Select ur age</label></td>
+                        <td>
+                            <select name="age" id="age" required>
+                                <option value="select">Select</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="file">Select Photo</label></td>
+                        <td><input type="file" id="file" name="file"></td>
+                    </tr>
+                    <tr>
+                        <td  colspan="2" id="buttons">
+                            <button type="get" class="pad">get</button>
+                            <button type="reset" class="pad">Reset</button>
+                            <button type="submit" class="pad">Submit</button>
+                        </td>
+                    </tr>
+                </table>
+        </form>
+        <iframe src="/MediaForm/vid3.mp4" frameborder="0" height="300px" width="50%" controls></iframe>
+    </main>
+</body>
+
+</html>
